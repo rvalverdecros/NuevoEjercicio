@@ -16,6 +16,6 @@ public class Abuelo {
         pd.directory(ru);
         Process q = pd.start();
         System.out.println(q.waitFor()+"");
-        //pd.redirect
+        //Redirect,appendTo
     }
 }
